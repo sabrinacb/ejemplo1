@@ -1,0 +1,25 @@
+* {
+
+box-sizing: border-box;
+
+}
+
+div {
+
+width: 200px;
+height: 30px;
+background-color: green;
+
+}
+
+div + div {
+background-color: red;
+
+padding: 20px;
+/*este ahora mide de width 200px+20px de cada lado = 240px
+y de height 30px + 20px de arriba y abajo es decir 70px*/
+
+
+
+
+}
